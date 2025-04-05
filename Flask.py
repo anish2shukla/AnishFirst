@@ -21,6 +21,7 @@ arr=[
 @app.route("/users",methods=["GET"])
 def get_users():
     return jsonify(arr)
+#added a new branch for dev
 
 @app.route("/users",methods=["POST"])
 def create_user():
